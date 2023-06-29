@@ -1,5 +1,5 @@
 module.exports = {
-  port: process.env.PORT || 2020,
+  port: process.env.PORT || 3000,
   mongoUrl:'mongodb+srv://verselon2000:W4iqNZvQcMrmNi31@cluster0.6j4igyn.mongodb.net/AirFlight?retryWrites=true&w=majority',
   jwtSecret: process.env.JWTSECRET || "placeholder",
   refreshSecret: process.env.REFRESHSECRET || "refreshholder",
@@ -13,7 +13,7 @@ module.exports = {
     NORMAL_USER: 1,
     ADMIN: 1024,
   },
-  corsOrigin: "http://localhost:2020",
+  // corsOrigin: "http://localhost:2020",
   email: {
     account: process.env.EMAIL_ACCOUNT,
     pass: process.env.EMAIL_PASS,
