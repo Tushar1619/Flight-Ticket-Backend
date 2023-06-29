@@ -13,9 +13,9 @@ module.exports = {
     NORMAL_USER: 1,
     ADMIN: 1024,
   },
-  // corsOrigin: "http://localhost:2020",
-  // email: {
-  //   account: process.env.EMAIL_ACCOUNT,
-  //   pass: process.env.EMAIL_PASS,
-  // },
+  corsOrigin: "http://localhost:2020",
+  email: {
+    account: process.env.EMAIL_ACCOUNT,
+    pass: process.env.EMAIL_PASS,
+  },
 };
